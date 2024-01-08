@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Forms</title>
+</head>
+
+<body>
+    <h1>Form for Web Dev TA</h1>
+        <form>
+            <div>
+                <label for="username">Naam dalo apna</label>
+                <input id="username" type="text" name="username" placeholder="kuch bhi likho">
+            </div>
+
+            <div>
+                <input type="radio" id="male" name="gender" value="1">
+                <label for="male">MALE</label>
+                <input type="radio" id="female" name="gender" value="0">
+                <label for="female">FEMALE</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="message" id="msg" value="Yes">
+                <label for="msg">Are you good enough??</label>
+            </div>
+
+            <div>
+                <label for="text">jo man aye wo likho</label>
+                <input type="text" name="text" id="text">
+            </div>
+
+            <div>
+                <label for="key">enter security key</label>
+                <input type="password" name="lock" id="key">
+            </div>
+
+            <div>
+                <label for="search">Jo dhundna hai</label>
+                <input type="search" name="searched" id="search">
+                <br>
+                <input type="submit" >
+            </div>
+
+            <div>
+                <label for="comment">jo dimag mein aye wo likh dalo</label>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="fruit">choose your fruit to eat</label>
+                <br>
+                <select name="fruit" id="fruit" >
+                    <option value="" selected disabled>Select any fruit</option>
+                    <option value="apel">Apple</option>
+                    <option value="tormuj">Watermelon</option>
+                    <option value="Kola">Banana</option>
+                    <option value="Kathal">jackfruit</option>
+                </select>
+            </div>
+            <input type="text" name="code" pattern="[0-9]+" placeholder="enter code">
+
+        </form>
+</body>
+
+</html>
