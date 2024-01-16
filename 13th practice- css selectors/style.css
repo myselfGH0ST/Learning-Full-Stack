@@ -1,0 +1,51 @@
+/* Element selector */
+div{
+    background-color: red;
+}
+
+/* class selector */
+.yellow{
+    background-color: yellow;
+}
+
+/* id selector */
+#green{
+    background-color: green;
+}
+
+/* child selector */
+div > p{
+    background-color: yellow;
+    color: blue;
+}
+.yellow > p{      
+    color: brown;
+}
+
+/* descendent selector */
+div p{
+    color: blue;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pseudo selector */
+a:visited{
+    color: orangered;
+}
+
+a:link{
+    color: black;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+a:hover{
+    background-color: lightgreen;
+}
