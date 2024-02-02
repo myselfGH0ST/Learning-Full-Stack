@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+    padding: 50px;
+    display: flex;
+}
+
+.card{
+    background-color: white;
+    border: solid 5px rgb(213, 209, 209);
+    width: 332px;
+    height: 75vh;
+    border-radius: 7px;
+    margin: 4px;
+}
+img{
+    width: 320px;
+    border-radius: 7px;
+}
+.image{
+    padding: 6px;
+}
+
+.content{
+    padding:10px;
+    font-family: 'poppins';
+}
+
+.content p{
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.capsule span{
+    border: 2px solid grey;
+    padding:2px 6px;
+    border-radius:10px;
+    font-size: 15px;
+    margin: 0px 7px 0px 0px;
+}
+
+.capsule{
+    padding:2px 21px 0px 11px;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    padding: 8px 18px;
+    border-radius: 15px;
+    background-color: rgba(151, 193, 243, 0.385);
+    border: rgba(151, 193, 243, 0.385);
+    color: rgb(91, 144, 205);
+    font-weight: 550;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: rgba(200, 220, 244, 0.385);
+    border: rgba(151, 193, 243, 0.385);
+    color: rgb(139, 182, 230);
+}
