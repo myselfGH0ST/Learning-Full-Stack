@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(192, 255, 234);
+}
+
+nav{
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+
+/* ul{
+    display: flex;
+    padding: 15px;
+} */
+
+ul li{
+    list-style: none;
+    padding: 40px;
+    display: inline;
+    font-family: 'Diphylleia', serif;
+    font-weight: bold;
+}
+
+ul li a{
+    color: rgb(107, 17, 17);
+    text-decoration: none;
+}
