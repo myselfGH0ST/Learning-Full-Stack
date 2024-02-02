@@ -1,0 +1,44 @@
+/* .box:first-child{
+    background-color: yellow;
+} */
+
+/* .box::first-line{
+    color: red;
+} */
+
+/* .boxes *{
+    color: blue;
+    border: 2px solid black;
+
+}
+
+p, a, .box, [data-color="primary"]{
+    padding-top: 40px;
+} */
+
+/* .box:nth-child(odd){
+    background-color:greenyellow;
+} */
+
+.boxes::before{
+    content: "hello, How are you";
+    color: yellowgreen;
+}
+.boxes::after{
+    content: "Thank u so much";
+    color: chocolate;
+}
+
+::selection{
+    color: aqua;
+    background-color: black;
+}
+
+.box::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+input::placeholder{
+    color: rgba(187, 186, 220, 0.838);
+}
