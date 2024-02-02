@@ -1,0 +1,31 @@
+:root{
+    --col:rgb(240, 143, 25);
+    --seccol:rgb(226, 189, 69);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: var(--col);
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    padding: 30px;
+    list-style: none;
+}
+
+.container{
+    background-color: var(--seccol) ;
+}
+
+ul li:nth-child(2){
+    --col:rgb(25, 240, 39);
+    background-color: var(--col,yellow);
+}
