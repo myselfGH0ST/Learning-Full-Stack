@@ -1,0 +1,33 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.logo img{
+    width: 170px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item ul{
+    display: flex;
+    gap: 35px;
+}
+
+.item ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.item ul li:hover{
+    color: rgba(144, 144, 144, 0.792);
+}
+
