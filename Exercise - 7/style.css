@@ -1,0 +1,130 @@
+.logo img {
+    width: 170px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item ul {
+    display: flex;
+    gap: 35px;
+}
+
+.item ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.item ul li:hover {
+    color: rgba(144, 144, 144, 0.792);
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    margin: 70px;
+}
+
+.first span {
+    font-size: 43px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    padding-right: 10px;
+}
+
+.first span img {
+    padding-left: 30px;
+}
+
+.one {
+    font-size: 26px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    width: 62vw;
+    text-align: center;
+}
+
+.btn {
+    height: 45px;
+    padding: 0px 23px;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 800;
+    align-self: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:  #44cfe4;
+}
+
+.line {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15vw;
+    gap: 3px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+.line img {
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+.t1 {
+    font-size: 25px;
+    /* align-self: flex-end; */
+}
+
+.t2 {
+    font-size: 15px;
+    padding-top: 6px;
+    /* align-self: flex-end; */
+}
+
+.lang {
+    font-size: 20px;
+    font-weight: 900;
+    /* align-self: center; */
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.blue {
+    background-color: #00b6d1;
+}
+
+.green {
+    background-color: rgb(115, 224, 115);
+}
+
+.green:hover{
+    background-color: rgb(68, 238, 68);
+}
+
+.itemx {
+    padding: 25px;
+    background-color: rgb(213, 213, 213);
+    width: 22vw;
+    padding: 25px 11px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 365px 365px 365px;
+    gap: 15px;
+    justify-items: center;
+    padding: 0px 188px;
+}
