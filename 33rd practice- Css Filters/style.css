@@ -1,0 +1,9 @@
+img{
+    width: 40vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center center;
+    filter: brightness(100%) contrast(100%) grayscale(32%) sepia(47%);
+    filter:opacity(1);
+    /* filter: invert(1); */
+}
