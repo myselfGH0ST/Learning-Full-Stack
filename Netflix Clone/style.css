@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    width: 100vw;
+    height: 705px;
+    background: url(assets/images/background.jpg);
+    background-position:center;
+    background-size: max(2000px,100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.main .box{
+    width: 100vw;
+    height: 705px;
+    background-color: black;
+    opacity: 0.56;
+    position: absolute;
+    top: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 90px;
+}
+
+nav img{
+    width: 150px;
+    color: rgb(171, 2, 2);
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.text{
+    height:80%;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.text> :first-child{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bolder;
+    font-size: 52px;
+    text-align: center;
+}
+.text> :nth-child(2){
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+.text> :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.separation{
+    background-color: gray;
+    height: 10px;
+} 
